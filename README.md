@@ -1,18 +1,15 @@
-# Resume - Free Next.js Resume Website Template
-#### Preview
+# Mustafa Portfolio
 
- - [Demo](https://themewagon.github.io/Resume-Nextjs/)
+Portfolio website for Muhammad Mustafa Imran - Product Manager | Automation Engineer | Embedded Systems Expert
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/resume-nextjs/)
+## Tech Stack
 
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS 4
 
 ## Getting Started
-
-Clone from GitHub 
-```bash
-git clone https://github.com/themewagon/Resume-Nextjs.git
-```
 
 Install dependencies:
 ```bash
@@ -29,16 +26,13 @@ Build for production:
 npm run build
 ```
 
-## Author
+## Deployment
 
-Design and code are written by the getnextjstemplates design & development team.  
-
+This portfolio is configured for GitHub Pages deployment. The deployment workflow automatically builds and deploys the site when changes are pushed to the master branch.
 
 ## License
 
- - Design and Code is Copyright &copy; [getnextjstemplates](https://getnextjstemplates.com/)
- - Licensed under [MIT]
- - Distributed by [ThemeWagon](https://themewagon.com)
+Licensed under [MIT]
 
 
 
