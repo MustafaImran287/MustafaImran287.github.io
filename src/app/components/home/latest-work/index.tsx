@@ -28,8 +28,8 @@ const LatestWork = () => {
         <div className="container">
           <div className="py-16 xl:py-32 ">
             <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
-              <h2>Research & Publications</h2>
-              <p className="text-xl text-primary">( 04 )</p>
+              <h2>Key Projects</h2>
+              <p className="text-xl text-primary">( 05 )</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-6 xl:gap-y-12">
               {workData?.map((value: any, index: any) => {
@@ -65,7 +65,7 @@ const LatestWork = () => {
                               width="64"
                               height="64"
                               rx="32"
-                              fill="#e29cbb"
+                              fill="#2b70e0"
                             />
                             <path
                               d="M25.6667 25.3333H39M39 25.3333V38.6666M39 25.3333L25.6667 38.6666"

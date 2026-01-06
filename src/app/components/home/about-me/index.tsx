@@ -29,20 +29,22 @@ const AboutMe = () => {
                   alt="about-me"
                   width={250}
                   height={350}
+                  quality={100}
                   className="w-full h-full object-contain rounded-lg"
+                  style={{ imageRendering: 'high-quality' }}
                 />
               </div>
 
               <div className="w-full lg:max-w-2xl flex-1">
                 <p>
-                  Public Health and Nutrition Professional with experience supporting community-based projects in underserved settings. Background in Human Nutrition and Dietetics and Public Health, with hands-on experience collecting, managing and analyzing quantitative and qualitative data related to malnutrition, household food practices and service access. Skilled in producing clear reports to inform decision-making and support impact and donor reporting. Highly organized, confident with spreadsheets and digital tools, and motivated to tackle food insecurity and health inequalities through evidence-based, frontline work.
+                  Research-driven Technology Professional with experience leading cross-functional engineering teams across automation, embedded systems, AI-enabled solutions, and product innovation. Proven track record delivering R&D projects involving computer vision, robotics, data-driven systems, and scalable modular architecture. Strong background in knowledge transfer, stakeholder engagement, and mentoring engineers. Experienced across automotive, aerospace, industrial and medical domains, with the ability to bridge academic research and real-world commercial deployment.
                 </p>
 
                 <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
                   {[
-                    { count: "05+", label: "Research Publications" },
-                    { count: "03+", label: "Years Experience" },
-                    { count: "05+", label: "Projects Completed" },
+                    { count: "07+", label: "Years Experience" },
+                    { count: "15+", label: "Projects Completed" },
+                    { count: "02", label: "Research Publications" },
                   ].map((item, i) => (
                     <div key={i}>
                       <h3>{item.count}</h3>
@@ -61,16 +63,16 @@ const AboutMe = () => {
                       width={30}
                       height={30}
                     />
-                    <p className="text-base xl:text-xl text-black">Language</p>
+                    <p className="text-base xl:text-xl text-black">Core Expertise</p>
                   </div>
                   <div className="flex flex-wrap justify-center items-center gap-2.5">
-                    {["English", "Urdu", "Turkish"].map((lang) => (
+                    {["HMI Development", "Embedded Systems", "Automation", "Product Management"].map((expertise) => (
                       <p
-                        key={lang}
+                        key={expertise}
                         className="py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl"
-                        style={{ backgroundColor: 'rgba(226, 156, 187, 0.2)' }}
+                        style={{ backgroundColor: 'rgba(43, 112, 224, 0.2)' }}
                       >
-                        {lang}
+                        {expertise}
                       </p>
                     ))}
                   </div>

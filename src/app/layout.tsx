@@ -11,8 +11,8 @@ const bricolageGrotesque = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Eiman Kalsoom | Public Health Researcher",
-  description: "Public Health and Nutrition Professional with experience supporting community-based projects in underserved settings.",
+  title: "Mustafa | Product Manager | Automation Engineer",
+  description: "Research-driven Technology Professional with experience leading cross-functional engineering teams across automation, embedded systems, AI-enabled solutions, and product innovation.",
   icons: {
     icon: [
       { url: "/images/logo/logo-img.png", sizes: "any", type: "image/png" },

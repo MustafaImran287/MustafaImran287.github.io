@@ -49,14 +49,14 @@ const EducationSkills = () => {
                         <div className="w-1.5 h-1.5 rounded-full bg-black"></div>
                       </div>
                       <div className="flex-1 flex flex-col gap-2">
-                        <div className="flex items-center gap-3 flex-wrap">
+                        <div className="flex items-center gap-4 flex-wrap">
                           <h5>{value?.title}</h5>
                           {value?.icon && (
                             <Image
                               src={getImgPath(value?.icon)}
-                              alt="certification icon"
-                              width={40}
-                              height={40}
+                              alt="university logo"
+                              width={80}
+                              height={80}
                               className="object-contain"
                             />
                           )}
@@ -110,7 +110,7 @@ const EducationSkills = () => {
                               width="9"
                               height="9"
                               rx="4.5"
-                              fill={i < value?.rating ? "#e29cbb" : "#C0D8E0"}
+                              fill={i < value?.rating ? "#2b70e0" : "#C0D8E0"}
                             />
                           </svg>
                         ))}

@@ -19,7 +19,7 @@ button::before {
   left: 0;
   width: 100%;
   height: 0%;
-  background-color: #e29cbb; 
+  background-color: #2b70e0; 
   transition: height 0.3s ease;
   z-index: 0;
 }
@@ -56,12 +56,13 @@ button:hover::before {
 
 
 @theme {
-  --color-primary: #e29cbb;
+  --color-primary: #2b70e0;
   --color-secondary: #545454;
   --color-softGray: #F0F0F0;
   --color-mistGray: #D7DCDD;
   --color-gray: #C0D8E0;
-  --color-accent: #4b346a;
+  --color-accent: #311f99;
+  --color-accent-red: #e24d4d;
   --color-white: #ffffff;
 
   --breakpoint-xs: 425px;

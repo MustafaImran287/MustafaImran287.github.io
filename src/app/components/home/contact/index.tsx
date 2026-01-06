@@ -39,7 +39,7 @@ const Contact = () => {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
 
-    fetch("https://formsubmit.co/ajax/eiman.kalsoom98@gmail.com", {
+    fetch("https://formsubmit.co/ajax/mustafaimran57@gmail.com", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
@@ -72,7 +72,7 @@ const Contact = () => {
         <div className="pt-16 md:pt-32 pb-20">
           <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
             <h2>Contact Me</h2>
-            <p className="text-xl text-primary">( 05 )</p>
+            <p className="text-xl text-primary">( 06 )</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <form onSubmit={handleSubmit}>

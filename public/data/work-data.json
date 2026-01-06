@@ -1,40 +1,28 @@
 {
   "workData": [
     {
-      "image": "/images/work/Effects of Birth Spacing on Malnutrition-img.jpg",
-      "title": "Effects of Birth Spacing on Malnutrition of Children under Five",
-      "slug": "birth-spacing-malnutrition",
-      "link": "https://doi.org/10.62807/jowach.v2i1.2023.41-46"
+      "image": "/images/work/industrial-automation-system-img.jpg",
+      "title": "Industrial Intelligent Automation System with FANUC & UR Robots",
+      "slug": "industrial-automation-robots",
+      "link": "#"
     },
     {
-      "image": "/images/work/Child Malnutrition in Nuclear and Joint Families-img.jpg",
-      "title": "Comparative Analysis of Child Malnutrition in Nuclear and Joint Family Structures",
-      "slug": "child-malnutrition-families",
-      "link": "https://doi.org/10.62807/jowach.v1i1.2023.41-46"
+      "image": "/images/work/hmi-qt-application-img.jpg",
+      "title": "HMI Development using Qt (QML + C++) for Real-time Control Systems",
+      "slug": "hmi-qt-application",
+      "link": "#"
     },
     {
-      "image": "/images/work/Maternal Occupation and Child Stunting-img.jpg",
-      "title": "Maternal Occupation and Child Stunting in Urban Karachi: A Cross-Sectional Study",
-      "slug": "maternal-occupation-stunting",
-      "link": "https://doi.org/10.62807/jowach.v2i3.2025.19-25"
+      "image": "/images/work/embedded-linux-yocto-img.jpg",
+      "title": "Custom Embedded Linux OS using Yocto Project for Optimized Performance",
+      "slug": "embedded-linux-yocto",
+      "link": "#"
     },
     {
-      "image": "/images/work/Family Dynamics and Nutritional Outcomes-img.jpg",
-      "title": "Untangling the Web: Family Dynamics, Women's Agency, and Nutritional Outcomes for Children in Karachi",
-      "slug": "family-dynamics-nutrition",
-      "link": "https://doi.org/10.62807/jowach.v2i1.2024.28-33"
-    },
-    {
-      "image": "/images/work/Socioeconomic Determinants of Women Empowerment-img.jpg",
-      "title": "Socioeconomic Determinants of Women's Empowerment and Child Nutrition in Urban Pakistan",
-      "slug": "socioeconomic-determinants",
-      "link": "https://doi.org/10.62807/jowach.v2i1.20242.28-33"
-    },
-    {
-      "image": "/images/work/Grandparental Influence on Child Nutrition-img.jpg",
-      "title": "The Impact of Grandparental Presence on Child Nutrition and Care Practices in Joint Families: A Cross-Sectional Study in Karachi, Pakistan",
-      "slug": "grandparental-influence",
-      "link": "https://doi.org/10.62807/jowach.v2i3.20242.22-27"
+      "image": "/images/work/mach-microservices-architecture-img.jpg",
+      "title": "MACH-based Architecture with Microservices & CI/CD Pipeline",
+      "slug": "mach-microservices-architecture",
+      "link": "#"
     }
   ]
 }

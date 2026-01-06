@@ -1,0 +1,18 @@
+{
+  "researchData": [
+    {
+      "title": "AI-based Hybrid Model for Breast Cancer Predictive Analytics",
+      "description": "A research and thesis using Neo4j Graph Database and Python to construct an AI-based hybrid model for breast cancer predictive analytics. This research aims to detect secondary breast tumours early. To analyse malignant cell hierarchy and classify the condition, a hybrid model combines expert- and data-driven methodologies.",
+      "technologies": ["Neo4j", "Python", "Graph Database", "Machine Learning", "Predictive Analytics"],
+      "image": "/images/work/AI-based Hybrid Model for Breast Cancer Predictive Analytics-img.png",
+      "link": "#"
+    },
+    {
+      "title": "Synthetic Data Production for Machine Learning using Robotic Arm",
+      "description": "A research and thesis on Synthetic Data Production for Machine Learning using a Robotic arm, in which we designed PCBs, worked on OpenCV libraries, ROS and implement the system in C++ and Python.",
+      "technologies": ["C++", "Python", "OpenCV", "ROS", "Robotics", "PCB Design", "Computer Vision"],
+      "image": "/images/work/Synthetic Data Production for Machine Learning using Robotic Arm-img.png",
+      "link": "#"
+    }
+  ]
+}

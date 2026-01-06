@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center justify-center gap-6">
             <Link
-              href="https://www.linkedin.com/in/eiman-kalsoom-618322204"
+              href="https://www.linkedin.com/in/mustafa-imran"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:opacity-80 transition-opacity"
@@ -29,20 +29,6 @@ const Footer = () => {
                 height={32}
               />
               <span className="text-secondary hover:text-primary">LinkedIn</span>
-            </Link>
-            <Link
-              href="https://orcid.org/0009-0005-7093-7661"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:opacity-80 transition-opacity"
-            >
-              <Image
-                src={getImgPath("/images/icon/ORCID-img.png")}
-                alt="ORCID"
-                width={40}
-                height={40}
-              />
-              <span className="text-secondary hover:text-primary">ORCID</span>
             </Link>
           </div>
         </div>
