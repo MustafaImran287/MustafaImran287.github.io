@@ -31,7 +31,7 @@ const AboutMe = () => {
                   height={350}
                   quality={100}
                   className="w-full h-full object-contain rounded-lg"
-                  style={{ imageRendering: 'high-quality' }}
+                  style={{ imageRendering: 'auto' }}
                 />
               </div>
 
