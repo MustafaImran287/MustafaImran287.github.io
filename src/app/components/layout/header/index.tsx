@@ -15,7 +15,7 @@ const Header = () => {
                         </div>
 
                     
-                        <Link
+                        <a
                             href={getImgPath("/docs/EIMAN KALSOOM RESUME.pdf")}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -24,7 +24,7 @@ const Header = () => {
                             <span className="relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300">
                                 Download PDF Resume
                             </span>
-                        </Link>
+                        </a>
                     </div>
                 </nav>
             </div>

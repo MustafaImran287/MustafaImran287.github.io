@@ -66,14 +66,14 @@ const EducationSkills = () => {
                           {value?.description2 && <p>{value?.description2}</p>}
                         </div>
                         {value?.certificateLink && (
-                          <Link
+                          <a
                             href={getImgPath(value?.certificateLink)}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-primary hover:underline text-sm mt-1"
                           >
                             View Certificate →
-                          </Link>
+                          </a>
                         )}
                       </div>
                     </div>
